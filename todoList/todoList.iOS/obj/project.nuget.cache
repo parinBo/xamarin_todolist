@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PbaS7PpaEAGokU3u/fKrIsRUg53jbsD4yazoixrhErsK6bkQd3ClaQy5u/MenhRxzy1daSTUgNyvPu97k9bsTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList.iOS\\todoList.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
