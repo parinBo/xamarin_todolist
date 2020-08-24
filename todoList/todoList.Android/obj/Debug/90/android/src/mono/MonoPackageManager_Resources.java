@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "todoList.Android.dll" comes first in this list. */
 		"todoList.Android.dll",
 		"FormsViewGroup.dll",
+		"Rg.Plugins.Popup.dll",
 		"todoList.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

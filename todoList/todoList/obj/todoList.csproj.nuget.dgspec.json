@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList\\todoList.csproj": {}
+    "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList\\todoList.csproj": {
+    "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList\\todoList.csproj",
+        "projectUniqueName": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
         "projectName": "todoList",
-        "projectPath": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList\\todoList.csproj",
+        "projectPath": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
         "packagesPath": "C:\\Users\\moca1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList\\obj\\",
+        "outputPath": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.4, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

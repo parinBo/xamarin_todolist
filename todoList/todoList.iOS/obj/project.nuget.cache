@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PbaS7PpaEAGokU3u/fKrIsRUg53jbsD4yazoixrhErsK6bkQd3ClaQy5u/MenhRxzy1daSTUgNyvPu97k9bsTQ==",
+  "dgSpecHash": "xNEjdga/uQFtMU5pzj6gB6vM3ec49oKujgg/N8VfZMXRPFrDfZ8ZhpT+EEp0OBq6x0vIUeD5dAb0NyB6LmNCjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList.iOS\\todoList.iOS.csproj",
+  "projectFilePath": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\moca1\\.nuget\\packages\\rg.plugins.popup\\2.0.0.4\\rg.plugins.popup.2.0.0.4.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
