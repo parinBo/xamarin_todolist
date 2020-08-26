@@ -1078,24 +1078,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\moca1\\.nuget\\packages\\": {},
+    "C:\\Users\\pthongtave001\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
       "projectName": "todoList.iOS",
-      "projectPath": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
-      "packagesPath": "C:\\Users\\moca1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\obj\\",
+      "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
+      "packagesPath": "C:\\Users\\pthongtave001\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\moca1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pthongtave001\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1109,8 +1109,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
-              "projectPath": "C:\\Users\\moca1\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj"
+            "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
+              "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj"
             }
           }
         }

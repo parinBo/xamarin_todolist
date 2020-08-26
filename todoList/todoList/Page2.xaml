@@ -15,7 +15,7 @@
                                    ScaleOut="0.5" />
     </pages:PopupPage.Animation>
 
-    <StackLayout  Padding="50" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
+    <StackLayout  Padding="30" WidthRequest="300" HeightRequest="280" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="FirstName" />
         <Entry FontSize="Body" />
         <Label Text="LastName" />
