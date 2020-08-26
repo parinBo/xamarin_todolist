@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/DE4AEPNXn77z3m5tBMveSg98G2A8D4dbyhUIKMiZ8G7attDw2eQljMDMP0BLzzY3+FeoNKk/wKmMETAQF7GQ==",
+  "dgSpecHash": "p6UEIUzY0aNDUbVQhaqZJV4HfxPQ9DPgkxOUmV+fQyU6zqMaQSTE2zJLuGhhoMDgARbGUx3LbbGx0HmDkCy97A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList.Android\\todoList.Android.csproj",
+  "projectFilePath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

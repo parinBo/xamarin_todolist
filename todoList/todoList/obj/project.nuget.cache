@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EbS19wdC2Mc2QUe7j6WPwsRRCvLa+doDEB5cWsHAo5T8wiKc4WLiUAe6H33+75WUWeG1McljFWqyqHEk6EV2UQ==",
+  "dgSpecHash": "X9yEAnTEe1TZZDRNK+tvvjrbAcGVg9/N0MQdrWVLEAWIt2TdCiItp0z0sAEdzajt+2amwLh3xOA8r0BEvV6gIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moca1\\source\\repos\\ToDoList\\todoList\\todoList\\todoList.csproj",
+  "projectFilePath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\pthongtave001\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pthongtave001\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\pthongtave001\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
