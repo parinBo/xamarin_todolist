@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rg.Plugins.Popup.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -19,5 +20,10 @@ namespace todoList
         {
             Navigation.PushAsync(new Page1());
         }
+        private void popUp(object sender, EventArgs e)
+        {
+            PopupNavigation.Instance.PushAsync(new Page2());
+        }
+     
     }
 }

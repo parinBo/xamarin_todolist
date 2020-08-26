@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "fKK3ZtoXX5QpM1u8o9sEns/tHW4lwltY03FgjHrcjtVYpcTKExeyxR/V67jbC2vFuao9sXOSi/LFym52Q7ZZ3w==",
+  "dgSpecHash": "0sT6laLQIGDNxINihppEnYF7FkEFuUlcj6dKtJ60Pq5NkN6Zqtvt5JYIhGHvlMLUr65YwmrWL+nfgPnSsnxwDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pthongtave001\\.nuget\\packages\\rg.plugins.popup\\2.0.0.4\\rg.plugins.popup.2.0.0.4.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

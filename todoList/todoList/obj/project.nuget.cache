@@ -1,14 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "X9yEAnTEe1TZZDRNK+tvvjrbAcGVg9/N0MQdrWVLEAWIt2TdCiItp0z0sAEdzajt+2amwLh3xOA8r0BEvV6gIw==",
+  "dgSpecHash": "IgfwVhJ2NaOJuxLWJD2TVdCghOn8F8waycgaPgz3D9Zewf8z5p9ao/1oApeUZmI7kd5t9d3b8EYjGB/nuggvLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pthongtave001\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\pthongtave001\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\pthongtave001\\.nuget\\packages\\rg.plugins.popup\\2.0.0.4\\rg.plugins.popup.2.0.0.4.nupkg.sha512",
     "C:\\Users\\pthongtave001\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
