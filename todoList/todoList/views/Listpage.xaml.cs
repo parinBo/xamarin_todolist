@@ -35,7 +35,7 @@ namespace todoList
         private async void deleteClick(object sender, EventArgs e)
         {
             var getData = await App.Database.GetPeopleAsync();
-            Console.WriteLine("asdsad" + getData.ToString());
+            Console.WriteLine("asdsad" + getData);
 
             //Console.WriteLine(App.Database.findDataToDelete(this.BindingContext.ToString));
         }
