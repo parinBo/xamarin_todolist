@@ -6,13 +6,13 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+++"  Clicked="onAddPopupClick" />
     </ContentPage.ToolbarItems>
-    <ListView ItemsSource="{Binding people}" CachingStrategy="RecycleElement" HasUnevenRows="True">
+    <ListView x:Name="lvShow"  CachingStrategy="RecycleElement" HasUnevenRows="True" ItemSelected="item_click">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
                     <StackLayout Padding="10">
-                        <Label Text="{Binding firstName}" FontSize="Large" TextColor="DeepPink"/>
-                        <Label Text="{Binding lastName}" FontSize="Large" TextColor="DeepPink"/>
+                        <Label Text="{Binding FirstName}" FontSize="Large" TextColor="DeepPink"/>
+                        <Label Text="{Binding LastName}" FontSize="Large" TextColor="DeepPink"/>
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
@@ -23,7 +23,7 @@
                                 <ColumnDefinition Width="0.5*"/>
                             </Grid.ColumnDefinitions>
                             <Label Grid.Row="0" Grid.Column="0" Text="{Binding city}"/>
-                            <Button Grid.Row="0" Grid.Column="1" Text="Hello"/>
+                            <Button Grid.Row="0" Grid.Column="1" Text="Delete"  Clicked="deleteClick"/>
                         </Grid>
                     </StackLayout>
                 </ViewCell>

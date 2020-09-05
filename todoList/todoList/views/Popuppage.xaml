@@ -17,9 +17,9 @@
 
     <StackLayout  Padding="30" WidthRequest="300" HeightRequest="280" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="FirstName" />
-        <Entry FontSize="Body" />
+        <Entry x:Name="FirstName" FontSize="Body" />
         <Label Text="LastName" />
-        <Entry FontSize="Body"  />
+        <Entry x:Name="LastName" FontSize="Body"  />
         <Button BackgroundColor="DodgerBlue" FontSize="10" Text="Submit" TextColor="White" Clicked="Button_Clicked"/>
     </StackLayout>
 

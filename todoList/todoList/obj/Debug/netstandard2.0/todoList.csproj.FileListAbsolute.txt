@@ -61,3 +61,4 @@ D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\ref
 D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\todoList.pdb
 D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\todoList.csproj.CoreCompileInputs.cache
 D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\XamlC.stamp
+D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\DetailPage.xaml.g.cs
