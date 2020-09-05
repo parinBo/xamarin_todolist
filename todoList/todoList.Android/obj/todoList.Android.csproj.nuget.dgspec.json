@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj": {}
+    "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj": {
+    "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj",
+        "projectUniqueName": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj",
         "projectName": "todoList.Android",
-        "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj",
-        "packagesPath": "C:\\Users\\pthongtave001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.Android\\obj\\",
+        "projectPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.Android\\todoList.Android.csproj",
+        "packagesPath": "C:\\Users\\moca1\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\pthongtave001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\moca1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
-                "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj"
+              "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
+                "projectPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj"
               }
             }
           }
@@ -58,20 +58,21 @@
         }
       }
     },
-    "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
+    "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
+        "projectUniqueName": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
         "projectName": "todoList",
-        "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
-        "packagesPath": "C:\\Users\\pthongtave001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\obj\\",
+        "projectPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
+        "packagesPath": "C:\\Users\\moca1\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pthongtave001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\moca1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -113,6 +114,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.6.0.1141, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [
