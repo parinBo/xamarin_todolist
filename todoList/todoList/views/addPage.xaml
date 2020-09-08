@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="todoList.addPage">
+    <ContentPage.Content>
+        <StackLayout  Padding="10"  BackgroundColor="White" >
+            <Label Text="FirstName" />
+            <Entry x:Name="FirstName" FontSize="Body" />
+            <DatePicker x:Name="startDatePicker"
+                   Format="D"
+                    Margin="30, 0, 0, 30"/>
+            <Label Text="End Date:" />
+            <DatePicker x:Name="endDatePicker"
+                    MinimumDate="{x:Static system:DateTime.Today}"
+                    Format="D"
+                    Margin="30, 0, 0, 30"
+                    DateSelected="OnDateSelected" />
+            <Label Text="Time" />
+            <TimePicker x:Name="_timePicker"
+                    Format="HH:mm"
+                     />
+            <Label Text="LastName" />
+            <Entry x:Name="LastName" FontSize="Body"  />
+            <Label Text="Detail" />
+            <Editor x:Name="Detail" />
+            <Label x:Name="resultLabel" />
+            <Button BackgroundColor="DodgerBlue" FontSize="10" Text="Submit" TextColor="White" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+    
+
+</ContentPage>
+
+<!--  Date="{x:Static system:DateTime.Today}"MinimumDate="{Binding Source={x:Reference startDatePicker},Path=Date}" PropertyChanged="OnTimePickerPropertyChanged"-->

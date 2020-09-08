@@ -25,7 +25,7 @@ namespace todoList
 
         public void onAddPopupClick(object s,EventArgs e)
         {
-            Navigation.PushAsync(new Popuppage { BindingContext=  new Person() });
+            Navigation.PushAsync(new addPage { BindingContext=  new Person() });
         }
 
         private void item_click(object sender, SelectedItemChangedEventArgs e)

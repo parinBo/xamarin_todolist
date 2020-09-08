@@ -21,8 +21,8 @@
     <Compile Update="views\Listpage.xaml.cs">
       <DependentUpon>Listpage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="views\Popuppage.xaml.cs">
-      <DependentUpon>Popuppage.xaml</DependentUpon>
+    <Compile Update="views\addPage.xaml.cs">
+      <DependentUpon>addPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -36,7 +36,7 @@
     <EmbeddedResource Update="views\Page1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="views\Popuppage.xaml">
+    <EmbeddedResource Update="views\addPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

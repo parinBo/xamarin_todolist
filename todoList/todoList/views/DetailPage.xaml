@@ -8,17 +8,19 @@
                 <RowDefinition Height="0.3*" />
                 <RowDefinition Height="0.3*" />
                 <RowDefinition Height="0.3*" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="0.15*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.7*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Label Text="Name : "  Grid.Row="0"  Grid.Column="0" Margin="0,20,0,0" FontSize="30"  HorizontalOptions="FillAndExpand"/>
+            <Label Text="Name : "  Grid.Row="0"  Grid.Column="0" Margin="5,20,0,0" FontSize="30"  HorizontalOptions="FillAndExpand"/>
             <Label Grid.Row="0"  Grid.Column="1" Text="{Binding FirstName}"    Margin="0,20,0,0" FontSize="30" VerticalOptions="FillAndExpand"  />
-            <Label Text="LastName : "  Grid.Row="1"  Grid.Column="0" Margin="0,20,0,0" FontSize="30"  HorizontalOptions="Center"/>
+            <Label Text="LastName : "  Grid.Row="1"  Grid.Column="0" Margin="5,20,0,0" FontSize="30"  HorizontalOptions="Center"/>
             <Label Grid.Row="1"  Grid.Column="1" Text="{Binding LastName}"  Margin="20,20,0,0" FontSize="30"  VerticalOptions="FillAndExpand" />
-            <Label Grid.Row="2"  Grid.Column="0" Text="{Binding Detail}"  Margin="20,20,0,0" FontSize="30"  VerticalOptions="FillAndExpand" />
+            <ScrollView Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="2" >
+                <Label Text="{Binding Detail}"  Margin="20,20,0,0" FontSize="30"  VerticalOptions="FillAndExpand" />
+            </ScrollView>
             <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="Delete" Clicked="delete_Clicked" 
                     BackgroundColor="DarkOliveGreen" TextColor="White" Margin="15"/>
             

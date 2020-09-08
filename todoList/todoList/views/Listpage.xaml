@@ -22,7 +22,8 @@
                                 <ColumnDefinition Width="0.5*"/>
                                 <ColumnDefinition Width="0.5*"/>
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding Detail}"/>
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding StartDate}"/>
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding EndDate}"/>
                         </Grid>
                     </StackLayout>
                 </ViewCell>
