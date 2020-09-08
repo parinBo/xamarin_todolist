@@ -14,6 +14,7 @@ namespace todoList
         public Listpage()
         {
             InitializeComponent();
+            this.BindingContext = App.Database.GetPeopleAsync();
         }
         protected override async void OnAppearing()
         {
@@ -24,7 +25,7 @@ namespace todoList
 
         public void onAddPopupClick(object s,EventArgs e)
         {
-            PopupNavigation.Instance.PushAsync(new Popuppage());
+            Navigation.PushAsync(new Popuppage { BindingContext=  new Person() });
         }
 
         private void item_click(object sender, SelectedItemChangedEventArgs e)
@@ -32,12 +33,6 @@ namespace todoList
             Navigation.PushAsync(new DetailPage { BindingContext = e.SelectedItem as Person});
         }
 
-        private async void deleteClick(object sender, EventArgs e)
-        {
-            var getData = await App.Database.GetPeopleAsync();
-            Console.WriteLine("asdsad" + getData);
-
-            //Console.WriteLine(App.Database.findDataToDelete(this.BindingContext.ToString));
-        }
+       
     }
 }

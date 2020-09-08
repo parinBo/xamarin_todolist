@@ -7,7 +7,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.3*" />
                 <RowDefinition Height="0.3*" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="0.3*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -17,7 +17,11 @@
             <Label Text="Name : "  Grid.Row="0"  Grid.Column="0" Margin="0,20,0,0" FontSize="30"  HorizontalOptions="FillAndExpand"/>
             <Label Grid.Row="0"  Grid.Column="1" Text="{Binding FirstName}"    Margin="0,20,0,0" FontSize="30" VerticalOptions="FillAndExpand"  />
             <Label Text="LastName : "  Grid.Row="1"  Grid.Column="0" Margin="0,20,0,0" FontSize="30"  HorizontalOptions="Center"/>
-            <Label Grid.Row="1"  Grid.Column="1" Text="{Binding LastName}"  Margin="20,20,0,0" FontSize="30"  VerticalOptions="FillAndExpand" /> 
+            <Label Grid.Row="1"  Grid.Column="1" Text="{Binding LastName}"  Margin="20,20,0,0" FontSize="30"  VerticalOptions="FillAndExpand" />
+            <Label Grid.Row="2"  Grid.Column="0" Text="{Binding Detail}"  Margin="20,20,0,0" FontSize="30"  VerticalOptions="FillAndExpand" />
+            <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="Delete" Clicked="delete_Clicked" 
+                    BackgroundColor="DarkOliveGreen" TextColor="White" Margin="15"/>
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>  

@@ -1,26 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
-             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
              x:Class="todoList.Popuppage">
-    <pages:PopupPage.Animation>
-        <animations:ScaleAnimation
-                                   EasingIn="SinOut"
-                                   EasingOut="SinIn"
-                                   HasBackgroundAnimation="True"
-                                   PositionIn="Center"
-                                   PositionOut="Center"
-                                   ScaleIn="0.5"
-                                   ScaleOut="0.5" />
-    </pages:PopupPage.Animation>
+    <ContentPage.Content>
+        <StackLayout  Padding="10" WidthRequest="300" HeightRequest="400" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="FirstName" />
+            <Entry x:Name="FirstName" FontSize="Body" />
+            <Label Text="LastName" />
+            <Entry x:Name="LastName" FontSize="Body"  />
+            <Label Text="Detail" />
+            <Editor x:Name="Detail" />
+            <Button BackgroundColor="DodgerBlue" FontSize="10" Text="Submit" TextColor="White" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
 
-    <StackLayout  Padding="30" WidthRequest="300" HeightRequest="280" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="FirstName" />
-        <Entry x:Name="FirstName" FontSize="Body" />
-        <Label Text="LastName" />
-        <Entry x:Name="LastName" FontSize="Body"  />
-        <Button BackgroundColor="DodgerBlue" FontSize="10" Text="Submit" TextColor="White" Clicked="Button_Clicked"/>
-    </StackLayout>
+    
 
-</pages:PopupPage>
+</ContentPage>

@@ -12,12 +12,10 @@ namespace todoList
 
         }
 
-        private void Button_Clicked(object sender, System.EventArgs e)
+        private  void Button_Clicked(object sender, System.EventArgs e)
         {
-            App.Database.SavePersonAsync(new views.Person { FirstName = FirstName.Text, LastName = LastName.Text });
+            App.Database.SavePersonAsync(new views.Person { FirstName = FirstName.Text, LastName = LastName.Text ,Detail = Detail.Text});
             Navigation.PopAsync();
-            Navigation.PushAsync(new Listpage());
-            PopupNavigation.Instance.PopAsync();
         }
     }
 }

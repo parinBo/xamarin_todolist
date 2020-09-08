@@ -16,5 +16,12 @@ namespace todoList.views
         {
             InitializeComponent();
         }
+
+        private void delete_Clicked(object sender, EventArgs e)
+        {
+            var person = (Person)BindingContext;
+            App.Database.DeletePersonAsync(person);
+            Navigation.PopAsync();
+        }
     }
 }
