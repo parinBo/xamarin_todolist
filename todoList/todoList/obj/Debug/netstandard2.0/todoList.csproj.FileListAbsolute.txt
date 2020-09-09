@@ -35,9 +35,6 @@ C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\bin\Debug
 C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\bin\Debug\netstandard2.0\todoList.pdb
 C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\todoList.csprojAssemblyReference.cache
 C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\Page1.xaml.g.cs
-C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\Page2.xaml.g.cs
 C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\todoList.AssemblyInfoInputs.cache
 C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\todoList.AssemblyInfo.cs
 C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\todoList.csproj.CoreCompileInputs.cache
@@ -63,3 +60,10 @@ D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\Xam
 D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\DetailPage.xaml.g.cs
 D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\Page1.xaml.g.cs
 D:\code\projects\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\addPage.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\addPage.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\DetailPage.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\Listpage.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\MainPage.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\Page.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\PageDetail.xaml.g.cs
+C:\Users\pthongtave001\source\repos\xamarin_todolist\todoList\todoList\obj\Debug\netstandard2.0\views\PageMaster.xaml.g.cs

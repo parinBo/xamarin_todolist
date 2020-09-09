@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj": {}
+    "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj": {}
   },
   "projects": {
-    "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj": {
+    "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
         "projectName": "todoList.iOS",
-        "projectPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
-        "packagesPath": "C:\\Users\\moca1\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList.iOS\\obj\\",
+        "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\todoList.iOS.csproj",
+        "packagesPath": "C:\\Users\\pthongtave001\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\moca1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pthongtave001\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
-                "projectPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj"
+              "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
+                "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj"
               }
             }
           }
@@ -65,21 +65,20 @@
         }
       }
     },
-    "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
+    "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
+        "projectUniqueName": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
         "projectName": "todoList",
-        "projectPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
-        "packagesPath": "C:\\Users\\moca1\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\projects\\xamarin_todolist\\todoList\\todoList\\obj\\",
+        "projectPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\todoList.csproj",
+        "packagesPath": "C:\\Users\\pthongtave001\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pthongtave001\\source\\repos\\xamarin_todolist\\todoList\\todoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\moca1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pthongtave001\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

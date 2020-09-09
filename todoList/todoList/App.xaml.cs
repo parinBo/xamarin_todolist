@@ -2,7 +2,6 @@
 using System.IO;
 using todoList.Data;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace todoList
 {
@@ -26,8 +25,9 @@ namespace todoList
         public App()
         {
             InitializeComponent();
+            MainPage = new views.Page();
 
-            MainPage = new NavigationPage(new MainPage());
+
         }
 
         protected override void OnStart()

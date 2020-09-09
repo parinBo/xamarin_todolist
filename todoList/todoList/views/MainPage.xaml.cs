@@ -1,14 +1,7 @@
-﻿using Rg.Plugins.Popup.Services;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using todoList.views;
+﻿using System;
 using Xamarin.Forms;
 
-namespace todoList
+namespace todoList.views
 {
     public partial class MainPage : ContentPage
     {
